@@ -1,0 +1,18 @@
+{
+  "name": "motd",
+  "version": "1.0.0",
+  "description": "Simply returns Docker Environment Variable on a HTTP Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitea.platform.alfagun74.de/phalcode/motd.git"
+  },
+  "author": "Alfagun74",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
