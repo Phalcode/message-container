@@ -3,10 +3,12 @@ lockfileVersion: 5.3
 specifiers:
   cors: ^2.8.5
   express: ^4.17.1
+  helmet: ^4.6.0
 
 dependencies:
   cors: 2.8.5
   express: 4.17.1
+  helmet: 4.6.0
 
 packages:
 
@@ -162,6 +164,11 @@ packages:
   /fresh/0.5.2:
     resolution: {integrity: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=}
     engines: {node: '>= 0.6'}
+    dev: false
+
+  /helmet/4.6.0:
+    resolution: {integrity: sha512-HVqALKZlR95ROkrnesdhbbZJFi/rIVSoNq6f3jA/9u6MIbTsPh3xZwihjeI5+DO/2sOV6HMHooXcEOuwskHpTg==}
+    engines: {node: '>=10.0.0'}
     dev: false
 
   /http-errors/1.7.2:

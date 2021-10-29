@@ -1,10 +1,13 @@
+const express = require("express");
+const cors = require("cors");
+const helmet = require("helmet");
+
 const PORT = Number(process.env.PORT) || 80;
 const MESSAGE = process.env.MESSAGE ?? "";
 
-var express = require("express");
-var cors = require("cors");
-var app = express();
+const app = express();
 app.use(cors());
+app.use(helmet());
 
 app.get("/", (request, response) => {
   response.send(MESSAGE);
