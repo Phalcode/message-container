@@ -1,5 +1,5 @@
-# motd
+# Message-Container
 
 ## Usage
 
-Simply set the `MOTD` Docker environment variable, and it will return it on Port 80.
+Simply set the `MESSAGE` Docker environment variable, and it will return it on Port `PORT`.

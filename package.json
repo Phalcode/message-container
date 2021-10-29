@@ -1,18 +1,19 @@
 {
-  "name": "motd",
+  "name": "message-container",
   "version": "1.0.0",
-  "description": "Simply returns Docker Environment Variable on a HTTP Server",
+  "description": "Message from a Docker Environment Variable!",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitea.platform.alfagun74.de/phalcode/motd.git"
+    "url": "https://gitea.platform.alfagun74.de/phalcode/message-container.git"
   },
   "author": "Alfagun74",
   "license": "UNLICENSED",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
