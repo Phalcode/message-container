@@ -1,6 +1,6 @@
 {
   "name": "message-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Message from a Docker Environment Variable!",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "helmet": "^4.6.0"
+    "express": "^4.18.1",
+    "helmet": "^5.1.1"
   }
 }
